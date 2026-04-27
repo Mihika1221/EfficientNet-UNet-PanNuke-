@@ -1,2 +1,32 @@
-# EfficientNet-UNet-PanNuke-
-Implemented a semantic segmentation pipeline for histopathology images using EfficientNet-B4 as the encoder within a U-Net framework. The model leverages Albumentations for data augmentation, custom Dice + BCE loss, and cross-validation for robust performance evaluation on the PanNuke dataset.
+# Histopathology Image Segmentation using EfficientNet-U-Net
+
+This project implements a deep learning pipeline for nucleus segmentation in histopathology images using the PanNuke dataset.
+
+ Model
+- U-Net architecture with EfficientNet-B4 encoder
+- Implemented using segmentation_models_pytorch
+
+ Features
+- Data preprocessing and augmentation using Albumentations
+- 3-fold cross-validation
+- Custom loss function (Dice + BCE)
+- Evaluation using Dice Score and IoU
+- Visualization of predictions
+
+ Dataset
+- PanNuke dataset (multi-organ nuclear segmentation dataset)
+
+ Tech Stack
+- PyTorch
+- Albumentations
+- segmentation_models_pytorch
+
+ Results
+- Achieved Dice Score of ~X (update this after training)
+
+ Sample Output
+(Add prediction images here)
+
+ How to Run
+```bash
+pip install -r requirements.txt
