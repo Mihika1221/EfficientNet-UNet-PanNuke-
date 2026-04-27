@@ -22,10 +22,7 @@ This project implements a deep learning pipeline for nucleus segmentation in his
 - segmentation_models_pytorch
 
  Results
-- Achieved Dice Score of ~X (update this after training)
-
- Sample Output
-(Add prediction images here)
+- Achieved Dice Score of ~0.77
 
  How to Run
 ```bash
